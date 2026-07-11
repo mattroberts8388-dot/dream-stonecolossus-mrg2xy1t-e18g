@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "stonecolossus",
+  "version": "${version}",
+  "name": "Stone Colossus Boss",
+  "description": "Adds a large tanky Stone Colossus boss with a slam area attack that drops a Colossus Core used to craft a powerful hammer.",
+  "authors": ["StoneColossus Team"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.stonecolossus.StoneColossusMod"],
+    "client": ["com.stonecolossus.StoneColossusModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
