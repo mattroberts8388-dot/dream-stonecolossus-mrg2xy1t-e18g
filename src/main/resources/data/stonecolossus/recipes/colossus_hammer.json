@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CSC",
+    " S "
+  ],
+  "key": {
+    "C": {
+      "item": "stonecolossus:colossus_core"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "stonecolossus:colossus_hammer",
+    "count": 1
+  }
+}
